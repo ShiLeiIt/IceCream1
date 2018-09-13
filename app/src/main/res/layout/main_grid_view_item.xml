@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ll_view"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/iv_icecream_icon"
+        android:layout_width="@dimen/dp_150"
+        android:layout_height="@dimen/dp_80"
+        android:src="@drawable/img_detail" />
+
+    <TextView
+        android:id="@+id/tv_icecream_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/tv_tulip_ice_cream"
+        android:textColor="@color/black"
+        android:textSize="@dimen/sp_16" />
+
+    <TextView
+        android:id="@+id/tv_icecream_composition"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/tv_tulip_ice_cream"
+        android:textColor="@color/deep_gray_2"
+        android:textSize="@dimen/sp_14" />
+
+    <LinearLayout
+        android:layout_width="@dimen/dp_150"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tv_icecream_original_price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/tv_original_price"
+            android:textColor="@color/deep_gray_2"
+            android:textSize="@dimen/sp_12" />
+
+        <TextView
+            android:id="@+id/tv_icecream_early_adopters_price"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginLeft="@dimen/dp_10"
+            android:text="@string/tv_early_adopters_price"
+            android:textColor="@color/price_red"
+            android:textSize="@dimen/sp_14" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="@dimen/dp_150"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tv_add_shop_car"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/dp_10"
+            android:layout_weight="1"
+            android:background="@drawable/shape_add_shop_car_bg"
+            android:gravity="center"
+            android:text="@string/tv_add_shop_car"
+            android:textColor="@color/splash_text_bg"
+            android:textSize="@dimen/sp_12" />
+
+        <TextView
+            android:id="@+id/tv_buy_now"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/shape_buy_now_bg"
+            android:gravity="center"
+            android:text="@string/tv_buy_now"
+            android:textColor="@color/price_red"
+            android:textSize="@dimen/sp_12" />
+    </LinearLayout>
+
+
+</LinearLayout>

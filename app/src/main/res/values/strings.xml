@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">IceCream</string>
+    <string name="tv_tulip_ice_cream">郁金香雪吻冰淇淋</string>
+    <string name="tv_pine_ice_cream">格罗林根黑松冰淇淋</string>
+    <string name="tv_holy_grail_ice_cream">海牙圣杯冰淇淋</string>
+    <string name="tv_original_price">原价:￥18</string>
+    <string name="tv_early_adopters_price">尝鲜价:￥15</string>
+    <string name="tv_add_shop_car">加入购物车</string>
+    <string name="tv_buy_now">立即购买</string>
+    <string name="tv_get_icecream">取冰淇淋</string>
+    <string name="tv_login">登录</string>
+    <string name="tv_settlement">结算</string>
+
+
+</resources>
